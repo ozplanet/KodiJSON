@@ -14,7 +14,7 @@ namespace UnitTest
 
             using (WebClient client = new WebClient())
             {
-                return client.UploadString("http://ozplanet.ca:8081/jsonrpc", "POST", jsonData);
+                return client.UploadString("http://localhost:8081/jsonrpc", "POST", jsonData);
             }
         }
     }
