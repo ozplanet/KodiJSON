@@ -188,12 +188,6 @@ namespace UnitTests
     }
     public class Files
     {
-        public void DownloadTest()
-        {
-            Download request = new Download();
-            var result = JsonConvert.DeserializeObject<KodiJSON.Files.Response.DownloadResponse>(ExecuteTest.GetResponse(request));
-        }
-
         public void GetDirectoryTest()
         {
             GetDirectory request = new GetDirectory();

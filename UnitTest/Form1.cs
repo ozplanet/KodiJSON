@@ -15,8 +15,8 @@ namespace UnitTest
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UnitTests.Favourites unitTests = new UnitTests.Favourites();
-            unitTests.GetFavouriteTest();
+            UnitTests.Files unitTests = new UnitTests.Files();
+            unitTests.GetDirectoryTest();
 
         }
 

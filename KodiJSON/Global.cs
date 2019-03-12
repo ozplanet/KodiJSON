@@ -286,6 +286,18 @@
         }
     }
 
+    namespace Files
+    {
+        public struct Media
+        {
+            public const string video = "video";
+            public const string music = "music";
+            public const string pictures = "pictures";
+            public const string files = "files";
+            public const string programs = "programs";
+        }
+    }
+
     namespace List
     {
         public class Limits
@@ -293,6 +305,83 @@
             public int end { get; set; }
             public int start { get; set; }
             public int total { get; set; }
+        }
+
+        namespace Fields
+        {
+            public struct Files
+            {
+                public const string album = "album";
+                public const string albumartist = "albumartist";
+                public const string albumartistid = "albumartistid";
+                public const string albumid = "albumid";
+                public const string albumlabel = "albumlabel";
+                public const string art = "art";
+                public const string artist = "artist";
+                public const string artistid = "artistid";
+                public const string cast = "cast";
+                public const string comment = "comment";
+                public const string country = "country";
+                public const string dateadded = "dateadded";
+                public const string description = "description";
+                public const string director = "director";
+                public const string disc = "disc";
+                public const string displayartist = "displayartist";
+                public const string duration = "duration";
+                public const string episode = "episode";
+                public const string episodeguide = "episodeguide";
+                public const string fanart = "fanart";
+                public const string file = "file";
+                public const string firstaired = "firstaired";
+                public const string genre = "genre";
+                public const string genreid = "genreid";
+                public const string imdbnumber = "imdbnumber";
+                public const string lastmodified = "lastmodified";
+                public const string lastplayed = "lastplayed";
+                public const string lyrics = "lyrics";
+                public const string mimetype = "mimetype";
+                public const string mood = "mood";
+                public const string mpaa = "mpaa";
+                public const string musicbrainzalbumartistid = "musicbrainzalbumartistid";
+                public const string musicbrainzalbumid = "musicbrainzalbumid";
+                public const string musicbrainzartistid = "musicbrainzartistid";
+                public const string musicbrainztrackid = "musicbrainztrackid";
+                public const string originaltitle = "originaltitle";
+                public const string playcount = "playcount";
+                public const string plot = "plot";
+                public const string plotoutline = "plotoutline";
+                public const string premiered = "premiered";
+                public const string productioncode = "productioncode";
+                public const string rating = "rating";
+                public const string resume = "resume";
+                public const string runtime = "runtime";
+                public const string season = "season";
+                public const string set = "set";
+                public const string setid = "setid";
+                public const string showlink = "showlink";
+                public const string showtitle = "showtitle";
+                public const string size = "size";
+                public const string sorttitle = "sorttitle";
+                public const string specialsortepisode = "specialsortepisode";
+                public const string specialsortseason = "specialsortseason";
+                public const string streamdetails = "streamdetails";
+                public const string studio = "studio";
+                public const string style = "style";
+                public const string tag = "tag";
+                public const string tagline = "tagline";
+                public const string theme = "theme";
+                public const string thumbnail = "thumbnail";
+                public const string title = "title";
+                public const string top250 = "top250";
+                public const string track = "track";
+                public const string trailer = "trailer";
+                public const string tvshowid = "tvshowid";
+                public const string uniqueid = "uniqueid";
+                public const string votes = "votes";
+                public const string watchedepisodes = "watchedepisodes";
+                public const string writer = "writer";
+                public const string year = "year";
+            }
         }
     }
 

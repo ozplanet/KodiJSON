@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
-
+/// <summary>
+/// Complete
+/// </summary>
 namespace KodiJSON.Favourites
 {
     namespace Methods
